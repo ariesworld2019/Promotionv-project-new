@@ -59,10 +59,10 @@ function App() {
                 <button className="nav-link active shadow-lg bg-body-tertiary rounded" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All Promotions</button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link shadow-lg bg-body-tertiary rounded" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">New Customers</button>
+                <button className="nav-link shadow-lg bg-body-tertiary rounded" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">New Customers  You Can drag it</button>
               </li>
             </ul>
-   You Can drag it
+  
 
             <div className="tab-content" id="myTabContent">
               <div className="tab-pane fade show active container-margin" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex="0">
