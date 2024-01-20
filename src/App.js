@@ -4,7 +4,6 @@ import background from "./img1.png";
  
 function App() {
    
-   
   const [promotion_nm, setpromotion_nm] = useState([]);
   const dragitem = useRef(null);
   const dragoveritem = useRef(null); 
@@ -63,6 +62,7 @@ function App() {
                 <button className="nav-link shadow-lg bg-body-tertiary rounded" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">New Customers</button>
               </li>
             </ul>
+   You Can drag it
 
             <div className="tab-content" id="myTabContent">
               <div className="tab-pane fade show active container-margin" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex="0">
