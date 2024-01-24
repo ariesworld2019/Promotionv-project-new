@@ -17,6 +17,7 @@ function App() {
     { 
       const fetchData = async () => {
         const response = await fetch("https://run.mocky.io/v3/69da5245-8f5d-45dd-9edd-3d6b36baa811", {
+       
           method: "POST", // *GET, POST, PUT, DELETE, etc.
           headers: {
             "Content-Type": "application/json",
