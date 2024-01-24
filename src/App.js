@@ -16,7 +16,7 @@ function App() {
     else
     { 
       const fetchData = async () => {
-        const response = await fetch("https://run.mocky.io/v3/89fc9e4b-f25f-4f60-8e30-e76e227ffea9", {
+        const response = await fetch("https://run.mocky.io/v3/69da5245-8f5d-45dd-9edd-3d6b36baa811", {
           method: "POST", // *GET, POST, PUT, DELETE, etc.
           headers: {
             "Content-Type": "application/json",
